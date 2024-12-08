@@ -1,0 +1,11 @@
+.copyright {
+    background: #1e1e1e;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background: #EEE;
+}
