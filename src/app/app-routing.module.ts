@@ -7,6 +7,8 @@ import { FabricationComponent } from './components/fabrication/fabrication.compo
 import { AlimentationComponent } from './components/alimentation/alimentation.component';
 import { ArtisanListComponent } from './components/artisan-list/artisan-list.component';
 import { FicheArtisanComponent } from './components/fiche-artisan/fiche-artisan.component';
+import { ArtisanDetailComponent } from './components/artisan-detail/artisan-detail.component';
+
 
 const routes: Routes = [
   {path : "", redirectTo : "accueil", pathMatch : "full"},
@@ -17,6 +19,7 @@ const routes: Routes = [
   {path : "alimentation", component : AlimentationComponent},
   {path : "list-artisan", component : ArtisanListComponent},
   {path : "fiche-artisan", component : FicheArtisanComponent},
+  {path: "fiche-artisan/:id", component:ArtisanDetailComponent},
 ];
 
 @NgModule({
