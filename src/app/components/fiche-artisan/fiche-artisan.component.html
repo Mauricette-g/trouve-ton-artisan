@@ -1,1 +1,11 @@
-<p>fiche-artisan works!</p>
+ <div *ngIf="artisan !== null && artisan.photo" class="card" style="width: 18rem;" >
+    <img [src]="artisan.photo" class="card-img-top" alt="">
+    <div class="card-body">
+        <h5 class="card-title">{{artisan.name}}</h5>
+        <p class="card-text">{{artisan.artisanDescription}}</p>
+        <a routerLink="/fiche-artisan/{{artisan.id}}" class="btn btn-primary">Contacter</a>
+    </div>
+</div>
+
+
+
