@@ -13,6 +13,7 @@ import { AlimentationComponent } from './components/alimentation/alimentation.co
 import { ArtisanListComponent } from './components/artisan-list/artisan-list.component';
 import { FicheArtisanComponent } from './components/fiche-artisan/fiche-artisan.component';
 import { ErrorComponent } from './components/error/error.component';
+import { ArtisanDetailComponent } from './components/artisan-detail/artisan-detail.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ErrorComponent } from './components/error/error.component';
     AlimentationComponent,
     ArtisanListComponent,
     FicheArtisanComponent,
-    ErrorComponent
+    ErrorComponent,
+    ArtisanDetailComponent
   ],
   imports: [
     BrowserModule,
