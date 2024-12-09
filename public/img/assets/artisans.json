@@ -1,0 +1,28 @@
+{
+    "Artisan":[
+        {
+            "id":1  ,
+            "name": "batiment" ,
+            "photo" : "assets/img/batiment.jpg",
+            "artisanNote" : "",
+            "artisanDescription":"",
+            "artisanLocalisation" : ""
+        },
+        {
+            "id":2  ,
+            "name": "menuisier" ,
+            "photo" : "assets/img/menuisier.jpg",
+            "artisanNote" : "",
+            "artisanDescription":"",
+            "artisanLocalisation" : ""
+        },
+        {
+            "id":3  ,
+            "name": "ceramique" ,
+            "photo" : "assets/img/céramique.jpg",
+            "artisanNote" : "",
+            "artisanDescription":"",
+            "artisanLocalisation" : ""
+        }
+    ]
+}
