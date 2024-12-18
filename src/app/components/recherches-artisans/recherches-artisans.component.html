@@ -1,0 +1,10 @@
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Trouver mon artisan</h1>
+        </div>
+    </div>
+    <div class="row m-2">
+        <app-fiche-artisan *ngFor="let a of rechercheArtisans | rechercheArtisan: search"  class="col-3 m-3" [artisan]="a" [attr.data-index]="a.id"></app-fiche-artisan>  
+    </div>
+</section>
