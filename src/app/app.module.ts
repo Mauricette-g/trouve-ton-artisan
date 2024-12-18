@@ -14,6 +14,13 @@ import { ArtisanListComponent } from './components/artisan-list/artisan-list.com
 import { FicheArtisanComponent } from './components/fiche-artisan/fiche-artisan.component';
 import { ErrorComponent } from './components/error/error.component';
 import { ArtisanDetailComponent } from './components/artisan-detail/artisan-detail.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RecherchesArtisansComponent } from './components/recherches-artisans/recherches-artisans.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
+import { RechercheArtisanPipe } from './Pipes/recherche-artisan.pipe';
+import { FormulaireContactComponent } from './components/formulaire-contact/formulaire-contact.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +35,19 @@ import { ArtisanDetailComponent } from './components/artisan-detail/artisan-deta
     ArtisanListComponent,
     FicheArtisanComponent,
     ErrorComponent,
-    ArtisanDetailComponent
+    ArtisanDetailComponent,
+    RecherchesArtisansComponent,
+    RechercheArtisanPipe,
+    FormulaireContactComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    NgbModule,
+    FormsModule,
+    ReactiveFormsModule,
+    RouterModule
   ],
   providers: [
     provideClientHydration()
