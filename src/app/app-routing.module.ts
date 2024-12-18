@@ -8,6 +8,8 @@ import { AlimentationComponent } from './components/alimentation/alimentation.co
 import { ArtisanListComponent } from './components/artisan-list/artisan-list.component';
 import { FicheArtisanComponent } from './components/fiche-artisan/fiche-artisan.component';
 import { ArtisanDetailComponent } from './components/artisan-detail/artisan-detail.component';
+import { RecherchesArtisansComponent } from './components/recherches-artisans/recherches-artisans.component';
+import { ErrorComponent } from './components/error/error.component';
 
 
 const routes: Routes = [
@@ -17,13 +19,15 @@ const routes: Routes = [
   {path : "services", component : ServicesComponent},
   {path : "fabrication", component : FabricationComponent},
   {path : "alimentation", component : AlimentationComponent},
-  {path : "list-artisan", component : ArtisanListComponent},
-  {path : "fiche-artisan", component : FicheArtisanComponent},
-  {path: "fiche-artisan/:id", component:ArtisanDetailComponent},
+  {path: "detail-artisan/:id", component:ArtisanDetailComponent},
+  {path: "list-artisans", component:RecherchesArtisansComponent},
+  { path: '**', component : ErrorComponent }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    onSameUrlNavigation: 'reload'
+})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
