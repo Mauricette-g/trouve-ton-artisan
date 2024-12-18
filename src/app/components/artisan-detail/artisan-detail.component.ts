@@ -10,6 +10,7 @@ import { Location } from '@angular/common';
 })
 export class ArtisanDetailComponent implements OnInit{
   artisan: any = null;
+  starRating = 0; 
 
   constructor(
     private route : ActivatedRoute,
