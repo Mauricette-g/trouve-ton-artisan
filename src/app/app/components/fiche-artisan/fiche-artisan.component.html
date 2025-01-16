@@ -1,0 +1,12 @@
+<div *ngIf="artisan !== null && artisan.photo" class="card" style="width: 18rem;" >
+    <img [src]="artisan.photo" class="card-img-top" alt="">
+    <div class="card-body">
+        <h5 class="card-title">{{artisan.name}}</h5>
+        <ngb-rating [max]="5" [(rate)]="artisan.artisanNote" [readonly]="false"></ngb-rating>
+        <p class="card-text">{{artisan.artisanSpecialite}}</p>
+        <a routerLink="/detail-artisan/{{artisan.id}}" class="btn btn-primary">Contacter</a>
+    </div>
+</div>
+
+
+
