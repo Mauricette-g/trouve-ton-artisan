@@ -1,0 +1,76 @@
+{
+    "Artisan":[
+        {
+            "id":1  ,
+            "name": "Pascal Pascal" ,
+            "artisanSpecialite" :"Batiment",
+            "photo" : "assets/img/batiment-1.jpg",
+            "artisanNote" : 4.5,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":2  ,
+            "name": "Bruno Bruno" ,
+            "artisanSpecialite" :"Menuisier",
+            "photo" : "assets/img/menuisier-1.png",
+            "artisanNote" : 5,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":3  ,
+            "name": "Paul Paul" ,
+            "artisanSpecialite" :"Ceramique",
+            "photo" : "assets/img/céramique.jpg",
+            "artisanNote" : 2,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":4  ,
+            "name": "Marine Marine" ,
+            "artisanSpecialite" :"Boucher",
+            "photo" : "assets/img/boucher.jpg",
+            "artisanNote" : 5,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":5  ,
+            "name": "Martin Martin" ,
+            "artisanSpecialite" :"Plombier",
+            "photo" : "assets/img/plombier.jpg",
+            "artisanNote" : 1,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":6  ,
+            "name": "Henri Henri" ,
+            "artisanSpecialite" :"Horloger",
+            "photo" : "assets/img/watchmaker.jpg",
+            "artisanNote" : 3,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":7  ,
+            "name": "Henri Henri" ,
+            "artisanSpecialite" :"Restaurateur",
+            "photo" : "assets/img/restaurateur.jpg",
+            "artisanNote" : 3.5,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":8  ,
+            "name": "Hugues Hugues" ,
+            "artisanSpecialite" :"Batiment",
+            "photo" : "assets/img/batiment.jpg",
+            "artisanNote" : 5,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        },
+        {
+            "id":9  ,
+            "name": "Victor Victor" ,
+            "artisanSpecialite" :"Menuisier",
+            "photo" : "assets/img/menuisier.jpg",
+            "artisanNote" : 5,
+            "artisanLocalisation" : "Auvergne Rhone Alpes"
+        }
+    ]
+}
