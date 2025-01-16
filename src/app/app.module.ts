@@ -21,6 +21,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { RechercheArtisanPipe } from './Pipes/recherche-artisan.pipe';
 import { FormulaireContactComponent } from './components/formulaire-contact/formulaire-contact.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { FormulaireContactComponent } from './components/formulaire-contact/form
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    HttpClientModule 
   ],
   providers: [
     provideClientHydration()
