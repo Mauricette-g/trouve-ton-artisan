@@ -1,22 +1,18 @@
 <div class="contact-form">
-    <h2>Contactez-nous</h2>
-    <form (ngSubmit)="onSubmit()" [formGroup]="contactForm">
-      <div class="form-group">
-        <label for="name">Nom</label>
-        <input id="name" formControlName="name" class="form-control" type="text" />
-      </div>
-  
-      <div class="form-group">
-        <label for="email">Email</label>
-        <input id="email" formControlName="email" class="form-control" type="email" />
-      </div>
-  
-      <div class="form-group">
-        <label for="message">Message</label>
-        <textarea id="message" formControlName="message" class="form-control"></textarea>
-      </div>
-  
-      <button type="submit" [disabled]="contactForm.invalid">Envoyer</button>
-    </form>
+  <h2>Contact</h2>
+  <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+    <div class="inputName">
+      <label for="name"> Prénom et Nom:</label>
+      <input type="text" id="name" [(ngModel)]="contact.name" name="name" required />
+    </div>
+    <div class="inputEmail">
+      <label for="email">Email:</label>
+      <input type="email" id="email" [(ngModel)]="contact.email" name="email" required />
+    </div>
+    <div class="inputMessage">
+      <label for="message">Message:</label>
+      <textarea id="message" [(ngModel)]="contact.message" name="message" required></textarea>
+    </div>
+    <button type="submit" [disabled]="!contactForm.form.valid">Envoyer</button>
+  </form>
 </div>
-  
