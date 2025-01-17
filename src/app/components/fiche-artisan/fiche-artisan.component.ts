@@ -11,5 +11,6 @@ export class FicheArtisanComponent implements OnInit {
 
   ngOnInit(): void {
 
+
   }
 }
