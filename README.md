@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Application
 
-Navigate to `[Trouve-ton-artisan](https://mauricette-g.github.io/trouve-ton-artisan/accueil)`. 
+Navigate to [Trouve-ton-artisan](https://mauricette-g.github.io/trouve-ton-artisan/accueil). 
 
 ## Code scaffolding
 
