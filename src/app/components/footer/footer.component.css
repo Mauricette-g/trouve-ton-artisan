@@ -1,3 +1,7 @@
+a{
+    color: #000;
+}
+
 .copyright {
     background: #00497c;
     min-height: 50px;
@@ -7,5 +11,6 @@
 }
 
 .footer {
-    background: #f1f8fc;
+    background: #0074c7 ;
+    color: #000;
 }
